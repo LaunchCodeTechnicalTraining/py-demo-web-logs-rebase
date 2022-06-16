@@ -13,7 +13,5 @@ def new_function(new_file_name):
     with open(new_file_name, "w") as the_file:
         the_file.write("{}: {}@{} ip: {} home-dir: {}\n".format(ts, user, hostname, local_ip, home_dir))
 
-
 if __name__ == "__main__":
-    new_function("web-log.txt")
-
+    new_function("web.log")
